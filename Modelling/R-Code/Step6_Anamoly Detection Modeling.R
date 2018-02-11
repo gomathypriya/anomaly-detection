@@ -499,8 +499,7 @@ run_master <- function(XNumer, XCateg, inputDat){
 }
 
 # Input file name 
-perF <- run_master(XNumer=6,XCateg=14,inputDat = "thyro")
+perF <- run_master(XNumer=14,XCateg=6,inputDat = "Rawdata")
 TrainPerc <- 20
 Iterations <- 3
-perF <- run_master(XNumer=5,XCateg=2,inputDat = "paysimT")
 
