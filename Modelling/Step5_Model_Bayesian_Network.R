@@ -33,4 +33,4 @@ pred = predict(fitted, "OA_MAIS", test.set)
 prdoutput<-cbind(pred, test.set[, "OA_MAIS"])  
 
 # Write predicted results into CSV file
-write.csv(prdoutput, file = "pred1.csv")
+write.csv(prdoutput, file = "predicted_output.csv")
