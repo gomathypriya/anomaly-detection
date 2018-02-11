@@ -47,7 +47,8 @@ Code Short Desctiption:
  # Note:
     - Run the scripts as per the step number mentioned infront of each python and R script
 
- # Project Details: Final Year Project
-      - University : National University of Singapore (Institute of System Science)
+ Project Details: Final Year Project
+ -----------------------------------
+      - University & School : National University of Singapore (Institute of System Science)
       - Course Name : Master of Technology in Enterprise Business Analytics
       
