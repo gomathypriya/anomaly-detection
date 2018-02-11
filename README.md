@@ -5,8 +5,8 @@
 
 Prerequisites:
 ==============
-    - Install RStudio (Tool used: RStudio Version 0.98.1091 – © 2009-2014 RStudio, Inc.)
-      - Python 3.6 (Tool used: Anaconda Navigator: Spyder 3.2.3) 
+      - Install RStudio (Tool used: RStudio Version 0.98.1091 – © 2009-2014 RStudio, Inc.)
+      - Install Python 3.6 (Tool used: Anaconda Navigator: Spyder 3.2.3) 
 
 Data Resources:
 ==============
@@ -43,3 +43,7 @@ Code Short Desctiption:
     - Semi-supervised Method 1: One-Class SVM
     - Unsupervised Method 2: K-Nearest Neighbor + Density
     - Bayseian Network
+    
+ # Note:
+ =======
+    - Run the scripts as per the step number mentioned infront of each python and R script
