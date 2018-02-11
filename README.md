@@ -40,12 +40,14 @@ Python Installation:
 $ python setup.py install
 $ pip install -r xxx.txt
 
-Building The Tutorial
+Install Pacakges:
 
-$ pip install sphinx
-$ cd docs/tutorial
-$ make clean
-$ make html
+pip install -U sklearn
+pip install -U scipy
+pip install -U numpy scipy scikit-learn
+pip install scikit-learn
+from sklearn import neighbors
+dir(neighbors)
 
 
 Resources
