@@ -1,17 +1,17 @@
 # Anomaly-detection
 
-# Project Title: Rare Class Prediction through Anomalay Detection 
+Project Title: Rare Class Prediction through Anomalay Detection 
 
-# Analytic Obejctive: To create One Synergized Analytical Framework for different Business Application domains.
+Analytic Obejctive: To create One Synergized Analytical Framework for different Business Application domains.
 
 Prerequisites:
 ==============
-   # Install RStudio (Tool used: RStudio Version 0.98.1091 – © 2009-2014 RStudio, Inc.)
-   # Python 3.6 (Tool used: Anaconda Navigator: Spyder 3.2.3) 
+   - Install RStudio (Tool used: RStudio Version 0.98.1091 – © 2009-2014 RStudio, Inc.)
+   - Python 3.6 (Tool used: Anaconda Navigator: Spyder 3.2.3) 
 
 Data Resources
 ==============
-  # Used BayesiaLab (vehicle accidents) public data for study and research purpose.   
+   - Used BayesiaLab (vehicle accidents) public data for study and research purpose.   
 
 
 Code Short Desctiption:
