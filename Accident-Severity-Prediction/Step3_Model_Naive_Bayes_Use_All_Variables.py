@@ -1,10 +1,16 @@
+"""
+Created on Sun Feb 11 21:44:55 2018
+
+@author: Gomathypriya Dhanapal
+@University: National University of Singapore
+"""
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.naive_bayes import GaussianNB
 
-train = pd.read_csv("train_derived2.csv")
-test = pd.read_csv("test_derived2.csv")
+train = pd.read_csv("train_derived.csv")
+test = pd.read_csv("test_derived.csv")
 
 swap_columns = ['OA_MAIS', 'GV_CURBWGT', 'GV_DVLAT', 'GV_DVLONG','GV_LANES', 'GV_OTVEHWGT', 'GV_SPLIMIT', 
  'GV_MODELYR_2000', 'GV_MODELYR_2001','GV_MODELYR_2002', 'GV_MODELYR_2003', 'GV_MODELYR_2004',
