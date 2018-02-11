@@ -1,4 +1,4 @@
-# anomaly-detection
+# Anomaly-detection
 
 Project Title: Rare Class Prediction through Anomalay Detection 
 
