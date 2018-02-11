@@ -15,7 +15,7 @@ from sklearn import svm
 from sklearn.ensemble import IsolationForest
 
 
-data = pd.read_csv("PY_Thyro.csv") # Read datafile from current folder
+data = pd.read_csv("test_Rawdata.csv") # Read datafile from current folder
 target_label = data.columns.values.tolist()[0]  # Extract name of the target column, first column y and other interger columns
 
 nrun = 10  # Number of runs
