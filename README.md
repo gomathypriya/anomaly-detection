@@ -8,46 +8,37 @@ Prerequisites:
 Things you need to install and how to install them
 
 R code
-------------------------------------------
+------
+- Allows creation of Anamoly Detection data by using  below mwentioned models
 
-Allows creation of Bayesian Belief Networks
-and other Graphical Models with pure Python
-functions. Where tractable exact inference
-is used. Currently four different inference
-methods are supported with more to come.
-
-Models Used
---------------------------
-
-- Bayesian Belief Networks with discrete variables
-- Gaussian Bayesian Networks with continous variables having gaussian distributions
+R: Models used inside the code
+-------------------------------
+- Semi-supervised AEN
+- Semi-supervised Method 1: One-Class SVM
+- Unsupervised Method 2: K-Nearest Neighbor + Density
 
 
 Python Code
------------------
+-----------
+- Allow to clean and treat the raw dataset for modeling.
+- Used the below mentioned models to find the best model fit using F1 score.
 
-- 
-- 
-- 
-- 
-
-
-Models Used
---------------
-
-- 
-- 
-
-Please see the short tutorial in the docs/tutorial directory
-for a short introduction on how to build a xxx
-There are also many examples in the examples directory.
+Python: Models used inside the code
+-----------------------------------
+- Variable Standardisation : One-Hot Encoding, Z-Score
+Models :
+-   Logistic Regression
+-   Naive Bayes, GaussianNB
+-   LocalOutlierFactor
+-   Oneclass SVM
+-   Isolation Forest
 
 
-Installation
-------------
+Python Installation:
+--------------------
 
 $ python setup.py install
-$ pip install -r requirements.txt
+$ pip install -r xxx.txt
 
 Building The Tutorial
 
@@ -56,13 +47,7 @@ $ cd docs/tutorial
 $ make clean
 $ make html
 
-Unit Tests:
-
-To run the tests in a development environment:
-
-$ PYTHONPATH=. py.test bayesian/test
-
 
 Resources
 =========
-
+Used Kaggle(thyro) and BayesiaLab (vehicle accidents) public data for study and research purpose.   
