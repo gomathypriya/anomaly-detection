@@ -1,55 +1,46 @@
 # Anomaly-detection
 
-Project Title: Rare Class Prediction through Anomalay Detection 
+# Project Title: Rare Class Prediction through Anomalay Detection 
 
-Business Application across Four Domains And One Synergized Analytical Framework
+# Analytic Obejctive: To create One Synergized Analytical Framework for different Business Application domains.
 
 Prerequisites:
-Things you need to install and how to install them
+==============
+   # Install RStudio (Tool used: RStudio Version 0.98.1091 – © 2009-2014 RStudio, Inc.)
+   # Python 3.6 (Tool used: Anaconda Navigator: Spyder 3.2.3) 
 
-R code
-------
-- Allows creation of Anamoly Detection data by using  below mwentioned models
-
-R: Models used inside the code
--------------------------------
-- Semi-supervised AEN
-- Semi-supervised Method 1: One-Class SVM
-- Unsupervised Method 2: K-Nearest Neighbor + Density
+Data Resources
+==============
+  # Used BayesiaLab (vehicle accidents) public data for study and research purpose.   
 
 
-Python Code
------------
-- Allow to clean and treat the raw dataset for modeling.
-- Used the below mentioned models to find the best model fit using F1 score.
+Code Short Desctiption:
+=======================
+  Python Code
+  -----------
+    - Allow to clean and treat the raw dataset for modeling.
+    - Used Receiver Operating Characteristic (ROC) metric to evaluate classifier output quality.
+    - Used Area Under the Curve (AUC) models to predict the best classes.
 
-Python: Models used inside the code
------------------------------------
-- Variable Standardisation : One-Hot Encoding, Z-Score
-Models :
--   Logistic Regression
--   Naive Bayes, GaussianNB
--   LocalOutlierFactor
--   Oneclass SVM
--   Isolation Forest
+  Python: Models used inside the code
+  -----------------------------------
+    - Variable Standardisation : One-Hot Encoding, Z-Score
+    Models :
+    -   Logistic Regression
+    -   Naive Bayes, GaussianNB
+    -   LocalOutlierFactor
+    -   Oneclass SVM
+    -   Isolation Forest
 
+  R code
+  ------
+    - Allow to clean and treat the raw dataset for modeling.
+    - Impute missing values
+    - Used below mentioned models to predict the best fit.
 
-Python Installation:
---------------------
-
-$ python setup.py install
-$ pip install -r xxx.txt
-
-Install Pacakges:
-
-pip install -U sklearn
-pip install -U scipy
-pip install -U numpy scipy scikit-learn
-pip install scikit-learn
-from sklearn import neighbors
-dir(neighbors)
-
-
-Resources
-=========
-Used Kaggle(thyro) and BayesiaLab (vehicle accidents) public data for study and research purpose.   
+  R: Models used inside the code
+  -------------------------------
+    - Semi-supervised AEN
+    - Semi-supervised Method 1: One-Class SVM
+    - Unsupervised Method 2: K-Nearest Neighbor + Density
+    - Bayseian Network
