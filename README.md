@@ -47,8 +47,10 @@ Code Short Desctiption:
  # Note:
     - Run the scripts as per the step number mentioned infront of each python and R script
 
- Project Details: Final Year Project
- -----------------------------------
+ Project Details: Final Year Capstone Project
+ ---------------------------------------------
       - University & School : National University of Singapore (Institute of System Science)
       - Course Name : Master of Technology in Enterprise Business Analytics
+      - Team Member : Dr. Acebedo, Cleta Milagros Libre, Yu Jun, Gomathypriya Dhanapal, Sougata Deb 
+
       
