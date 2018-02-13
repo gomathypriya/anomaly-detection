@@ -2,7 +2,13 @@
 
       - Project Title: Rare Class Prediction through Anomalay Detection
       - Analytic Objective: To create One Synergized Analytical Framework for different Business Application domains.
-   
+
+ Project Details: Final Year Capstone Project
+ ============================================
+      - University & School : National University of Singapore (Institute of System Science)
+      - Course Name : Master of Technology in Enterprise Business Analytics
+      - Team Member : Dr. Acebedo, Cleta Milagros Libre, Yu Jun, Gomathypriya Dhanapal, Sougata Deb 
+      
 Prerequisites:
 ==============
       - Install RStudio (Tool used: RStudio Version 0.98.1091 – © 2009-2014 RStudio, Inc.)
@@ -11,7 +17,6 @@ Prerequisites:
 Data Resources:
 ==============
       - Used BayesiaLab (vehicle accidents) public data for study and research purpose.   
-
 
 Code Short Desctiption:
 =======================
@@ -47,10 +52,6 @@ Code Short Desctiption:
  # Note:
     - Run the scripts as per the step number mentioned infront of each python and R script
 
- Project Details: Final Year Capstone Project
- ---------------------------------------------
-      - University & School : National University of Singapore (Institute of System Science)
-      - Course Name : Master of Technology in Enterprise Business Analytics
-      - Team Member : Dr. Acebedo, Cleta Milagros Libre, Yu Jun, Gomathypriya Dhanapal, Sougata Deb 
+
 
       
