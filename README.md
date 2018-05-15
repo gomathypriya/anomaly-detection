@@ -32,19 +32,21 @@ Code Short Desctiption:
 =======================
   Python Code
   -----------
-      - First Python code was created based on the BayesiaLab data but can easily be customized for other datasets. It demonstrates step-by-step process for basic data cleaning, followed by building different supervised models.
-
+      - First Python code was created based on the BayesiaLab data but can easily be customized for other datasets. 
+      - It demonstrates step-by-step process for basic data cleaning, followed by building different supervised models.
+        
       Supervised models:
-             -        Logistic Regression
-             -        Naïve Bayes
+                  - Logistic Regression
+                  - Naïve Bayes
 
-      - Second Python code is for benchmarking performance of the prominent anomaly detection techniques. This code takes the cleaned datasets as inputs. Hence the cleaned datasets from first code can be used as inputs here.
+      - Second Python code is for benchmarking performance of the prominent anomaly detection techniques. 
+      - This code takes the cleaned datasets as inputs. Hence the cleaned datasets from first code can be used as inputs here.
 
       Anomaly detection models:
-             -        Local Outlier Factor
-             -        One class SVM
-             -        Isolation Forest
-
+                  - Local Outlier Factor
+                  - One class SVM
+                  - Isolation Forest
+                  
       In both cases, the model performance is evaluated using ROC-AUC and F1 Score for the rare class.
 
   R code
@@ -79,7 +81,3 @@ This R code will automatically perform the following steps:
     
  # Note:
     - Run the scripts as per the step number mentioned infront of each python and R script
-
-
-
-      
