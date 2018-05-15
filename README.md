@@ -5,7 +5,7 @@
       
  Project Details: Final Year Capstone Project
  ============================================
-      - University & School : National University of Singapore (Institute of System Science)
+      - University & School : National University of Singapore (Institute of Systems Science)
       - Course Name : Master of Technology in Enterprise Business Analytics
       - Team Member : Dr. Acebedo, Cleta Milagros Libre, Yu Jun, Gomathypriya Dhanapal, Sougata Deb 
       
