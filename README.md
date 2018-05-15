@@ -55,7 +55,7 @@ Code Short Desctiption:
 First R code:
 
       - Used to generate multiple (6,480) predictions from the same dataset by using different preprocessing, variable selection and anomaly detection models. 
-      - This code was used on the 4 development dataset to assess impact of each preprocessing, variable selection or model building  option on final prediction performance.
+      - This code was used on the 4 development dataset to assess impact of each preprocessing, variable selection or model building option on final prediction performance.
       - These results were subsequently analyzed to come up with the proposed uniform analytical framework.
       
  Second R code:
