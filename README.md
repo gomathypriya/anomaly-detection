@@ -69,7 +69,6 @@ First R code:
       - If your data has a mix of both, choose the option based on majority type.
 
 This R code will automatically perform the following steps:
-----------------------------------------------------------
 
       - Impute missing values for both numeric and categorical predictors.
       - Convert categorical predictors to numeric using Relative Frequency Encoding
