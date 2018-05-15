@@ -54,7 +54,7 @@ Code Short Desctiption:
   
 First R code:
 
-       - Used to generate multiple (6,480) predictions from the same dataset by using different preprocessing, variable selection and anomaly detection models. 
+      - Used to generate multiple (6,480) predictions from the same dataset by using different preprocessing, variable selection and anomaly detection models. 
       - This code was used on the 4 development dataset to assess impact of each preprocessing, variable selection or model building  option on final prediction performance.
       - These results were subsequently analyzed to come up with the proposed uniform analytical framework.
       
@@ -62,13 +62,10 @@ First R code:
 
       - Implementation of our proposed uniform analytical framework. 
       - Apart from the basic data features, it also needs an additional input on the predictor data type: H(uman) or M(achine).
-        
       - Behavioral and other human generated / interpreted / captured predictors should be categorized as “H”, 
-            e.g. age, purchase volume, examination score, amount transferred.
-            
+            e.g. age, purchase volume, examination score, amount transferred.       
       - On the other hand, data generated / interpreted / captured or related to machines should be categorized as “M”, 
-            e.g. image pixels, network delays, blood test results.
-            
+            e.g. image pixels, network delays, blood test results.            
       - If your data has a mix of both, choose the option based on majority type.
 
 This R code will automatically perform the following steps:
